@@ -1,0 +1,19 @@
+- name: Tainã Coleman
+  institution: University of Southern California
+  country: USA
+  photo: https://scitech.group/images/people/coleman.jpg
+
+- name: Rosa Filgueira
+  institution: University of St Andrews
+  photo: https://static.wixstatic.com/media/4472a9_9ceed5bd80464640a09ba8d59d9a433e~mv2.jpg/v1/fill/w_392,h_392,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/PicProfile.jpg
+  country: UK
+
+- name: Ulf Leser
+  institution: Humboldt-Universitaet zu Berlin
+  country: Germany
+  photo: https://workflows.community/images/about/leser.jpg
+
+- name: Sean R. Wilkinson
+  institution: Oak Ridge National Laboratory
+  country: USA
+  photo: https://avatars.githubusercontent.com/u/437277?v=4

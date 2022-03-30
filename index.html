@@ -59,12 +59,12 @@ permalink: /
 
 		<p>
 			Escience researchers often invest significant time and effort in projects
-      that can have unexpected outcomes. When results are obtained that do not fit
-      the established molds expected by publishing venues, these results can be lost.
-      The ERROR Workshop invites research results from computing and computational
-      projects that encounter unexpected or negative results that would be difficult
-      to report on elsewhere. 
-     </p>
+			that can have unexpected outcomes. When results are obtained that do not fit
+			the established molds expected by publishing venues, these results can be lost.
+			The ERROR Workshop invites research results from computing and computational
+			projects that encounter unexpected or negative results that would be difficult
+			to report on elsewhere.
+		</p>
 
 		<p>
 			Novel hardware technologies and machine learning approaches
@@ -126,7 +126,8 @@ permalink: /
 				target=_blank>this link</a>.<br>
 
 			Authors should submit a PDF file that will print on a postscript printer
-			to the <strong><a href=https://easychair.org/conferences/?conf=error2022 target=_blank>easychair conference system</a></strong>.
+			to the <strong><a href=https://easychair.org/conferences/?conf=error2022 target=_blank>easychair conference
+					system</a></strong>.
 		</p>
 	</div>
 </section>
@@ -175,7 +176,22 @@ permalink: /
 	</div>
 </section>
 
-
+<!-- Program Committee -->
+<section id="pc" class="wrapper style2 fade-up">
+	<div class="inner">
+		<h2>Program Committee</h2>
+		<div class="features">
+			{% for pc in site.data.pc %}
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="{{pc.photo}}" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">{{pc.name}}</h3>
+				<p style="margin: 0">{{pc.institution}}, {{pc.country}}</p>
+			</section>
+			{% endfor %}
+		</div>
+	</div>
+</section>
 
 <!-- <section id="one" class="wrapper style2 spotlights">
 	<section>
