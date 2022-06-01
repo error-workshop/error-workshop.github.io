@@ -137,6 +137,23 @@ permalink: /
 	</div>
 </section>
 
+<!-- Keynote Speaker -->
+<section id="keynote" class="wrapper style2 fade-up">
+	<div class="inner">
+		<h2>Keynote Speaker</h2>
+		<div class="features">
+			{% for keynote in site.data.keynote %}
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="{{keynote.photo}}" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">{{keynote.name}}</h3>
+				<p style="margin: 0">{{keynote.institution}}, {{keynote.country}}</p>
+			</section>
+			{% endfor %}
+		</div>
+	</div>
+</section>
+
 <!-- Organization -->
 <section id="organization" class="wrapper style3 fade-up">
 	<div class="inner">
