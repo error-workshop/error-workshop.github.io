@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+	<header>
+		<meta charset="utf-8">
+		<title>The ERROR Workshop</title>
+	</header>
+
+	<body>
+		<h2>The ERROR Workshop</h2>
+
+		<div class="Introduction">
+			Introduction / About.
+		</div>
+		<div class="Organization">
+			Organization.
+		</div>
+		<div class="PC">
+			Program Committee.
+		</div>
+		<div class="CFP">
+			Call for Papers.
+		</div>
+
+	</body>
+
+	<footer>
+		Footer.
+	</footer>
+
+</html>
