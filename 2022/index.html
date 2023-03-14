@@ -1,15 +1,44 @@
----
-layout: default
-permalink: /
----
 
-<!-- Intro -->
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>ERROR 2022</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+</head>
+
+<body class="is-preload">
+    <!-- Sidebar -->
+    <section id="sidebar">
+        <div class="inner">
+            <nav>
+                <ul>
+                    <li><a href="#intro">ERROR 2022</a></li>
+                    <li><a href="#prog">Workshop Program</a></li>
+                    <li><a href="#dates">Important Dates</a></li>
+                    <li><a href="#cfp">CFP</a></li>
+                    <li><a href="#keynote">Keynote Speaker</a></li>
+                    <li><a href="#organization">Organization</a></li>
+                    <li><a href="#pc">Program Committee</a></li>
+                </ul>
+            </nav>
+        </div>
+    </section>
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+        <!-- Intro -->
 <section id="intro" class="wrapper style1 fullscreen fade-up">
 	<div class="inner">
-		<h1>{{site.acronym}}</h1>
-		<p><strong>{{site.title}}</strong><br />October 10, 2022</p>
+		<h1>ERROR 2022</h1>
+		<p><strong>2nd Workshop on E-science ReseaRch leading tO negative Results</strong><br />October 10, 2022</p>
 		<p>
-			{{site.acronym}} provides the e-Science community a dedicated and active forum for exchanging
+			ERROR 2022 provides the e-Science community a dedicated and active forum for exchanging
 			cross-discipline experiences on research leading to negative results and lessons learned. The workshop
 			covers both applications and systems areas, including topics in research methodology, reproducibility, the
 			applications/systems interface, social problems in computational science, and other relevant areas.
@@ -45,12 +74,12 @@ permalink: /
 			</tr>
 			<tr>
 				<td>1:40pm-2:40pm</td>
-				<td><strong>Lessons learned when training deep neural networks on leadership class HPC systems (Keynote)</strong><br /><i>Brian C Van Essen, LLNL</i></td>
+				<td><strong>Keynote</strong><br /><i>Brian S Van Essen</i></td>
 				<td rowspan="2" style="vertical-align: middle">Justin Wozniak</td>
 			</tr>
 			<tr>
 				<td>2:40pm-3:00pm</td>
-				<td><strong><a href=https://zenodo.org/record/7134198#.Y0dZH-zMK8A>The Ghost of Performance Reproducibility Past</a></strong><br /><i>Srinivasan Ramesh, Mikhail Titov, Matteo Turilli, Shantenu Jha and Allen Malony </i></td>
+				<td><strong>The Ghost of Performance Reproducibility Past</strong><br /><i>Srinivasan Ramesh, Mikhail Titov, Matteo Turilli, Shantenu Jha and Allen Malony </i></td>
 			</tr>
 			<tr>
 				<td>3:00pm-3:30pm</td>
@@ -58,12 +87,12 @@ permalink: /
 			</tr>
 			<tr>
 				<td>3:30pm-3:50pm</td>
-				<td><strong><a href=https://zenodo.org/record/7140037>Failure Sources in Machine Learning for Medicine---A Study</a></strong><br /><i>Hana Ahmed, Roselyne Tchoua and Jay Lofstead</i></td>
+				<td><strong>Failure Sources in Machine Learning for Medicine---A Study</strong><br /><i>Hana Ahmed, Roselyne Tchoua and Jay Lofstead</i></td>
 				<td rowspan="3" style="vertical-align: middle; max-width: 50px;">Rafael Ferreira da Silva</td>
 			</tr>
 			<tr>
 				<td>3:50pm-4:10pm</td>
-				<td><strong><a href=https://zenodo.org/record/7182583#.Y01etezMJBY>Automated metadata extraction: challenges and opportunities</a></strong><br /><i>Tyler Skluzacek, Kyle Chard and Ian Foster</i></td>
+				<td><strong>Automated metadata extraction: challenges and opportunities</strong><br /><i>Tyler Skluzacek, Kyle Chard and Ian Foster</i></td>
 			</tr>
 			<tr>
 				<td>4:10pm-4:30pm</td>
@@ -193,14 +222,14 @@ permalink: /
 	<div class="inner">
 		<h2>Keynote Speaker</h2>
 		<div class="features">
-			{% for keynote in site.data.keynote %}
+			
 			<section style="padding: 1em">
 				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
-					<img src="{{keynote.photo}}" width="50px" style="border-radius: 50%"></span>
-				<h3 style="margin: 0">{{keynote.name}}</h3>
-				<p style="margin: 0">{{keynote.institution}}, {{keynote.country}}</p>
+					<img src="https://people.llnl.gov/sites/default/files/styles/medium/public/img/vanessen1.png?itok=D7200FDG" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Brian C. Van Essen</h3>
+				<p style="margin: 0">Lawrence Livermore National Laboratory, USA</p>
 			</section>
-			{% endfor %}
+			
 		</div>
 	</div>
 </section>
@@ -254,14 +283,70 @@ permalink: /
 	<div class="inner">
 		<h2>Program Committee</h2>
 		<div class="features">
-			{% for pc in site.data.pc %}
+			
 			<section style="padding: 1em">
 				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
-					<img src="{{pc.photo}}" width="50px" style="border-radius: 50%"></span>
-				<h3 style="margin: 0">{{pc.name}}</h3>
-				<p style="margin: 0">{{pc.institution}}, {{pc.country}}</p>
+					<img src="https://scitech.group/images/people/coleman.jpg" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Tainã Coleman</h3>
+				<p style="margin: 0">University of Southern California, USA</p>
 			</section>
-			{% endfor %}
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://static.wixstatic.com/media/4472a9_9ceed5bd80464640a09ba8d59d9a433e~mv2.jpg/v1/fill/w_392,h_392,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/PicProfile.jpg" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Rosa Filgueira</h3>
+				<p style="margin: 0">University of St Andrews, UK</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://avatars.githubusercontent.com/u/1388464?v=4" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Arnaud Legrand</h3>
+				<p style="margin: 0">CNRS, France</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://workflows.community/images/about/leser.jpg" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Ulf Leser</h3>
+				<p style="margin: 0">Humboldt-Universitaet zu Berlin, Germany</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://scitech.group/images/people/pottier.jpg" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Loïc Pottier</h3>
+				<p style="margin: 0">University of Southern California, USA</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2022-03/Fred.jpg?h=4dd25c43&itok=epY7PfSl" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Frédéric Suter</h3>
+				<p style="margin: 0">Oak Ridge National Laboratory, USA</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://avatars.githubusercontent.com/u/437277?v=4" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Sean R. Wilkinson</h3>
+				<p style="margin: 0">Oak Ridge National Laboratory, USA</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://csmd.ornl.gov/sites/default/files/styles/profile_portrait_image_style/public/2018-06/mwolfnew.jpg?itok=RCR_6v6c" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Matthew Wolf</h3>
+				<p style="margin: 0">Oak Ridge National Laboratory, USA</p>
+			</section>
+			
+			<section style="padding: 1em">
+				<span class="icon" style="float: left; position: relative; left: 0; top: 0; padding-right: 1em">
+					<img src="https://www.ornl.gov/sites/default/files/styles/staff_profile_image_style/public/2021-03/Olga_Kuchar.png?h=1e093c7e&itok=eIJvgDID" width="50px" style="border-radius: 50%"></span>
+				<h3 style="margin: 0">Olga Kuchar</h3>
+				<p style="margin: 0">Oak Ridge National Laboratory, USA</p>
+			</section>
+			
 		</div>
 	</div>
 </section>
@@ -422,3 +507,26 @@ permalink: /
 		</div>
 	</div>
 </section> -->
+
+    </div>
+    <!-- Footer -->
+    <footer id="footer" class="wrapper style1">
+        <div class="inner">
+            <ul class="menu">
+                <li>&copy; ERROR 2022. All rights reserved.</li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/browser.min.js"></script>
+    <script src="assets/js/breakpoints.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
