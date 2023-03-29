@@ -18,6 +18,11 @@
   country: USA
   photo: https://scitech.group/images/people/pottier.jpg
 
+- name: Tanu Malik
+  institution: DePaul University
+  country: USA
+  photo: https://odata.cdm.depaul.edu/Cdm.svc/CdmEmployeePictures(1135817)/MediumPicture/$value
+
 - name: Raül Sirvent
   institution: Barcelona Supercomputing Center
   country: Spain
